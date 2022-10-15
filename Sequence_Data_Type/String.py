@@ -14,10 +14,3 @@ print(type(String))
 print("Accessing the data from string using index: ",String[11])
 print("Accessing the data from string using index: ",String[-11])
 
-
-for i in String:
-    print(i," ",end="")
-print("")
-for i in range(0,len(String),1):
-    print(String[i]," ",end="")
-print("")
