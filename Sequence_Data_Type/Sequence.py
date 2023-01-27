@@ -17,5 +17,3 @@ print(type(ldata))
 print(type(tdata))
 print(type(sdata))
 print(type(ddata))
-
-

@@ -16,7 +16,7 @@ Batch = ["PPA","LB","Angular","Python"]
 print("Data type of Data is:",type(data))
 print("Data is Heterogeneous:",data1)
 print("Data is ordered: ",data1)
-print("Data from index 2 is: ",data1[1])
+print("Data from index 1 is: ",data1[1])
 print("Data with duplicate elements is:",data)
 data[0] = "IN" # we replace 0th index element with string "IN" this proves list is mutable.
 print("Data is mutable: ",data)
@@ -38,7 +38,7 @@ data.pop(1) # 1 is the index number. We can remove the element using by providin
 # If we not provide index then pop method remove the last element or list index element of that list.
 print("Data pop from index 1st is:",data)
 
-data1.insert(2,"Kunal")
+data1.insert(2,"Kunal") # Here index get shifted.
 print(data1)
 
 data.insert(-2,"KD")

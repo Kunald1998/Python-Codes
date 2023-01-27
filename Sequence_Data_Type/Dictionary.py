@@ -43,6 +43,10 @@ Value of C++ is:  Strounstupe
 insert data using dictionary_name[Key_name] = New_value is:
 {'PPA': 19000, 'LB': 16700, 'Python': 16500, 'Angular': 15000, 'LSP': 15000}
 {'C': 'Thompson', 'C++': 'Strounstupe', 'Java': 'James Gosling', 'Python': 'Gudo van Rossum'}
+dict_keys(['PPA', 'LB', 'Python', 'Angular', 'LSP'])
+Type of key is:  <class 'dict_keys'>
+dict_values([19000, 16700, 16500, 15000, 15000])
+Type of values is:  <class 'dict_values'>
 
 """
 

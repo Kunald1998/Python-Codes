@@ -1,6 +1,5 @@
 from sys import *
 
-
 def Addition(iNo1,iNo2):
     Ans = 0
     Ans = iNo1 + iNo2
